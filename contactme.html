@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <title>Contact Me</title>
+</head>
+<body onload="generateNavigation('contactme.html'); footerGenerator('index.html');">
+    <div id="particles-js"></div>
+    <header>
+        <div id="navContainer"></div> <!-- Navigation will be injected here -->
+        <a href="aboutme.html" class="quick-access">About Me</a>
+        <h1>Contact</h1>
+    </header>
+    <main>
+        <form action="https://professorcooke.org/forms/processform.php" method="post" novalidate>
+            <!-- First and Last Name -->
+            <label for="firstName">First Name: <input type="text" name="firstName" id="firstName" required></label>
+            <label for="lastName">Last Name: <input type="text" name="lastName" id="lastName" required></label>
+            <!-- Email -->
+            <label for="email">Email: 
+            <input type="email" name="email" id="email" autocomplete="on">
+            </label>
+            <div id="emailValid"></div>
+            <!-- Date Picker -->
+            <label for="datepicker">Date: <input type="text" id="datepicker" name="date" required></label>
+            <!-- Password -->
+            <label for="password">Password:
+            <input type="password" id="password" name="password" required>
+            </label>
+            <!-- Password Strength Meter -->
+            <div id="passwordStrength">
+                <div id="strengthBar"></div>
+            </div>
+            <small>Password Strength Meter</small>
+            <!-- Comments and Character Count -->
+            <label for="comments">Comments (max 500 characters):</label>
+            <textarea id="comments" name="comments" maxlength="500" rows="5" cols="40"></textarea>
+            <div id="charCount">0 / 500</div>
+            <!-- Submit -->
+            <button type="submit">Submit</button>
+        </form>
+        <a href="mailto:treyrdolan@gmail.com" id="mail">Email Me</a>
+        <br>
+        <a href="https://github.com/treydolan" class="cta" rel="noopener" target="_blank">GitHub</a>
+        <br>
+        <a href="https://www.linkedin.com/in/trey-dolan-0a454411b/" class="cta"  id="alt-button"  rel="noopener" target="_blank">LinkedIn</a>
+    </main> 
+    <footer>
+        <div id="footerContainer" class="footer-links"></div> <!-- Navigation will be injected here -->
+        <small>&copy; Trey Dolan</small>
+    </footer>
+     <!-- jQuery & jQuery UI -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="assets/Scripts/calendar.js"></script>
+    <script src="assets/Scripts/main.js"></script>
+</body>
+</html>

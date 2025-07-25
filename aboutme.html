@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <title>About Me</title>
+</head>
+<body onload="generateNavigation('aboutme.html'); footerGenerator();">
+    <div id="particles-js"></div>
+    <header>
+        <div id="navContainer"></div> <!-- Navigation will be injected here -->
+        <a href="gallery.html" class="quick-access">Gallery</a>
+        <h1>About Me</h1>
+    </header> 
+    <main class="center-about">
+            <figure>
+                <img class="rollover-img" src="assets/images/AboutMe1.jpeg" alt="Trey Dolan in a suit/Trey Dolan with his girlfriend" onmouseover="changeImage(2, this)" onmouseout="changeImage(1,this)">
+            </figure>
+        <section>
+            <h2>Services</h2>
+            <ul>
+                <li>
+                    <strong>Web Development</strong>
+                    <ul>
+                        <li>Sketches, Wireframes and Planning</li>
+                        <li>HTML, CSS, and JavaScript</li>
+                        <li>Troubleshooting, Search Engine Optimization, and Data Management</li>
+                    </ul>    
+                </li>     
+                <li>
+                    <strong>Technical Support and Consultation</strong>
+                    <ul>
+                        <li>CompTIA A+ Certified Hardware Technician</li>
+                        <li>IT Asset Management</li>
+                        <li>Network Engineering and Troubleshooting</li>
+                    </ul>
+                </li> 
+                <li>
+                    <strong>Content Creation</strong>
+                    <ul>
+                        <li>Sound Design, Mixing, and Mastering</li>
+                        <li>Brand and image creation</li>
+                    </ul>
+                </li>   
+            </ul>
+        </section>
+        <section>
+            <h2>How I obtained my Skills</h2>
+            <p>I began my career specializing in Event Technology, which eventually led to IT asset management. I am now pursuing an associate's degree in Web Development at Broward College where I am studying front-end languages, UI/UX design, data analysis, and project management. Throughout that time, I've also worked on composing electronic music and creating artwork by way of Photoshop.</p>
+        </section>
+        <section>
+            <h2>How long I've been providing services</h2>
+            <p>My first job in IT was over 7 years ago, though I've been fascinated with computers all my life. I was always the one helping family members and friends install software, solve network issues, you name it. Now, with knowledge in Web Development I'm ready to become an asset for anyone looking to grow their presence on the Web in addition to hardware management.</p>
+        </section>
+        <br>
+            <a href="assets/files/ThomasDolan_ResumeSummer2024.pdf" id="resume" download="">Résumé</a>
+            <br>
+            <a href="https://github.com/treydolan" class="cta" rel="noopener" target="_blank">GitHub</a>
+            <br>
+            <a href="https://www.linkedin.com/in/trey-dolan-0a454411b/" class="cta"  id="alt-button"  rel="noopener" target="_blank">LinkedIn</a>
+    </main>
+    <footer>
+        <div id="footerContainer" class="footer-links"></div> <!-- Navigation will be injected here -->
+        <small>&copy; Trey Dolan</small>
+    </footer>
+    <script src="assets/Scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <title>My Page</title>
+</head>
+<body onload="generateNavigation('mypage.html'); footerGenerator('index.html');">
+    <div id="particles-js"></div>
+    <header>
+        <div id="navContainer"></div> <!-- Navigation will be injected here -->
+        <a href="aboutme.html" class="quick-access">About Me</a>
+        <h1>My Blog</h1>
+    </header>
+    <main class="center">
+        <div  id="blogContainer" class="blog-main">
+            <!-- Blog posts will go here -->
+        </div>
+        <a href="https://github.com/treydolan" class="cta" rel="noopener" target="_blank">GitHub</a>
+        <br>
+        <a href="https://www.linkedin.com/in/trey-dolan-0a454411b/" class="cta"  id="alt-button"  rel="noopener" target="_blank">LinkedIn</a>   
+    </main> 
+    <footer>
+        <div id="footerContainer" class="footer-links"></div> <!-- Navigation will be injected here -->
+        <small>&copy; Trey Dolan</small>
+    </footer>
+    <script src="assets/Scripts/main.js"></script>
+    <script src="assets/Scripts/blog.js"></script>
+</body>
+</html>

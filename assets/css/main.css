@@ -338,6 +338,29 @@ footer small {
     gap: 1em;
 }
 
+footer small a {
+    justify-content: center;
+    border-radius: none;
+    color: var(--primaryColor2);
+    background-color: var(--accentColor1);
+}
+
+footer #credit {
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer #credit:hover {
+    background-color: var(--accentColor1);
+    color: var(--primaryColor2);
+    cursor: pointer;
+}
+
 /* Carousel */ 
 
 .carousel {

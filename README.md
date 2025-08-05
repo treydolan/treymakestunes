@@ -13,7 +13,6 @@ A personal portfolio site showcasing my web development work, creative projects,
 - CSS3 (Flexbox, Grid)
 - JavaScript (Vanilla) and jQuery
 - Git & GitHub
-- Netlify / GitHub Pages (for deployment)
 
 ## Getting Started
 
@@ -21,7 +20,7 @@ A personal portfolio site showcasing my web development work, creative projects,
 
 1. Clone the repo:
 
-git clone <https://github.com/yourusername/your-portfolio.git>
+git clone (https://github.com/treydolan/treymakestunes.git)
 
 ### Prerequisites
 
@@ -37,10 +36,10 @@ git clone <https://github.com/yourusername/your-portfolio.git>
 - Embedded music player
 - Contact form (EmailJS integration)
 
-## License
-
-MIT License
-
 ## Contact
 
-Trey Dolan – <treyrdolan@gmail.com>
+Email – <treyrdolan@gmail.com>
+
+LinkedIn - <https://www.linkedin.com/in/trey-dolan-0a454411b/>
+
+Credly - <https://www.credly.com/users/thomas-dolan.e865e5e5>
